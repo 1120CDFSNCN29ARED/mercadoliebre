@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+#page-header {
+  background-color: #eac926;
+  padding: 16px;
+}
+
+#page-header div.logo {
+  width: 50%;
+}
+
+#page-header div.logo {
+  padding: 10px;
+}
+
+#main-nav {
+  font-size: 12px;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #000;
+}
+
+.input {
+  background-color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
+.submit {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #666;
+  width: 10%;
+}
+
+#page-header #top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#burger-menu {
+  text-align: center;
+}
+
+#burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.product {
+  width: 100%;
+  background-color: #fff;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount,
+.description {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3,
+.description {
+  color: #666;
+}
+
+.banner img {
+  width: 100%;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product i,
+.discount {
+  color: #39b54a;
+}
