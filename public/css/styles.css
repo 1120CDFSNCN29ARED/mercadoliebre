@@ -1,6 +1,17 @@
+:root {
+  --primary: #eac926;
+  --main-yellow: #eac926;
+  --dark-blue: #03264c;
+  --light-blue: #1259c3;
+  --dark-grey: #666;
+  --light-grey: #ebebeb;
+  --green: #39b54a;
+}
+
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,11 +32,11 @@ p {
   padding: 16px;
 }
 
-#page-header div.logo {
+#page-header .logo {
   width: 50%;
 }
 
-#page-header div.logo {
+#page-header .logo {
   padding: 10px;
 }
 
@@ -80,19 +91,23 @@ p {
   background-color: #fff;
 }
 
-.price {
+.product .price {
   font-size: 18px;
 }
 
-.discount,
-.description {
+.product .discount,
+.product .description {
   font-size: 16px;
   font-weight: normal;
 }
 
 h3,
-.description {
+.product .description {
   color: #666;
+}
+
+.description {
+  display: none;
 }
 
 .banner img {
@@ -108,7 +123,36 @@ main {
   width: 100%;
 }
 
-.product i,
+.truck-icon,
 .discount {
   color: #39b54a;
+}
+
+.truck-icon {
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.product .main-article {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+@media (min-width: 361px) {
+  .product .description {
+    display: initial;
+  }
+
+  .product {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+}
+
+@media (min-width: 769px) {
 }
