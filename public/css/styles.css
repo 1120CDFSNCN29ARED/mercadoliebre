@@ -27,87 +27,8 @@ p {
   font-size: 12px;
 }
 
-#page-header {
-  background-color: #eac926;
-  padding: 16px;
-}
-
-#page-header .logo {
-  width: 50%;
-}
-
-#page-header .logo {
-  padding: 10px;
-}
-
-#main-nav {
-  font-size: 12px;
-}
-
-.nav-list {
-  list-style-type: none;
-}
-
-.nav-list a {
-  text-decoration: none;
-  color: #000;
-}
-
-.input {
-  background-color: #fff;
-  border: 1px solid #000;
-  outline: none;
+h3 {
   color: #666;
-  padding: 2px;
-}
-
-.submit {
-  background-color: #fff;
-  border: 1px solid #000;
-  color: #666;
-  width: 10%;
-}
-
-#page-header #top-header p {
-  width: 100%;
-  text-align: center;
-  margin-top: 10px;
-}
-
-#burger-menu {
-  text-align: center;
-}
-
-#burger-menu i {
-  background-color: #0044aa;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
-  padding: 10px;
-}
-
-.product {
-  width: 100%;
-  background-color: #fff;
-}
-
-.product .price {
-  font-size: 18px;
-}
-
-.product .discount,
-.product .description {
-  font-size: 16px;
-  font-weight: normal;
-}
-
-h3,
-.product .description {
-  color: #666;
-}
-
-.description {
-  display: none;
 }
 
 .banner img {
@@ -117,42 +38,4 @@ h3,
 main {
   margin: 0 auto;
   width: 90%;
-}
-
-.product img {
-  width: 100%;
-}
-
-.truck-icon,
-.discount {
-  color: #39b54a;
-}
-
-.truck-icon {
-  font-size: 16px;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 1px solid #39b54a;
-  background-color: #fff;
-  border-radius: 50%;
-}
-
-.product .main-article {
-  width: 100%;
-  border-top: 1px solid #ebebeb;
-  padding: 15px;
-}
-
-@media (min-width: 361px) {
-  .product .description {
-    display: initial;
-  }
-
-  .product {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-  }
-}
-
-@media (min-width: 769px) {
 }

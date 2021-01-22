@@ -1,0 +1,22 @@
+.search-box {
+  position: relative;
+  width: 100%;
+}
+
+.search-box .search-input,
+.search-box .search-btn {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  color: #666;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.search-box .search-btn {
+  position: absolute;
+  right: 0px;
+}
+.search-box .search-input {
+  width: 100%;
+}
