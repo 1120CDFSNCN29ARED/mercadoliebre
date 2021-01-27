@@ -4,7 +4,8 @@
 }
 
 .search-box .search-input,
-.search-box .search-btn {
+.search-box .search-btn,
+.input-box .input {
   background-color: #fff;
   border: none;
   outline: none;
@@ -19,4 +20,18 @@
 }
 .search-box .search-input {
   width: 100%;
+}
+
+.input-box .label {
+}
+
+.input-box .input {
+  display: block;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+.error-box {
+  background-color: red;
+  padding: 50px;
 }
